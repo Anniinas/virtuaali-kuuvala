@@ -1,0 +1,15 @@
+runtime: nodejs16
+
+instance_class: F2
+
+env_variables:
+  HOST: '0.0.0.0'
+  NODE_ENV: 'production'
+  DATABASE_NAME: 'kuuvala-db'
+  DATABASE_USER: 'kuuvala-db-user'
+  DATABASE_PASSWORD: 'pGJ<J_TCuju@58Vt'
+  INSTANCE_CONNECTION_NAME: 'kuuvala:europe-west1:kuuvala-db'
+  JWT_SECRET: '831ec3271ab36586457f0f46a819ea233744dffafebd52237a867e7f76d948c714cd5d1618a0370158c55507b46245dafdefff23289bb7e7b0957bc4138294ed'
+
+beta_settings:
+  cloud_sql_instances: 'kuuvala:europe-west1:kuuvala-db'
